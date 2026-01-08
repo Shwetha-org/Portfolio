@@ -1,41 +1,26 @@
-<<<<<<< HEAD
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Portfolio - Shwetha Rajesh
 
-## Getting Started
+A responsive personal portfolio built with Next.js, React, and Tailwind CSS to showcase my projects, skills, and experience in embedded systems and IoT.
 
-First, run the development server:
+## Projects
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **IoT Doorbell**: Smart doorbell with camera, LEDs, buzzer, and AWS Rekognition for facial recognition access.
+- **BeautyBrand Order Tracking Chatbot**: GUI-based chatbot for order, inventory, and delivery tracking (Python + SQL).
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Skills
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Programming**: Python, Kotlin, Java, C
+- **Databases**: Azure SQL, MySQL
+- **Embedded & IoT**: Raspberry Pi, Sensor Interfacing, PCB Assembly
+- **Tools & Frameworks**: Git/GitHub, JIRA, UML Modeling, Retrofit, Coroutines
+- **Soft Skills**: Communication, Collaboration, Problem Solving
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Contact
 
-## Learn More
+- **Email**: shwetha_rajesh@outlook.se  
+- **GitHub**: [Shwetha-org](https://github.com/Shwetha-org)  
+- **LinkedIn**: [Shwetha Rajesh](https://www.linkedin.com/in/shwetha-rajesh-a29195358/)
 
-To learn more about Next.js, take a look at the following resources:
+## CV
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-=======
-# Portfolio
-A responsive personal portfolio built with Next.js, React, and Tailwind CSS to showcase my projects and experience in embedded systems and IoT.
->>>>>>> 7f5554f9e0fb7fd3b15384ae9c5d3c225491c666
+You can download my [CV / Resume](./ShwethaRajesh_CV.pdf) to see my complete experience, education, and projects.
