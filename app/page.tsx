@@ -33,6 +33,13 @@ export default function Home() {
       skills: ["Python", "Tkinter", "SQL Server", "GUI Design"],
       link: "https://github.com/Shwetha-org/Optimal-Solutions-chatbot",
     },
+    {
+      title: "Personal Portfolio",
+      description:
+        "This portfolio website is built with Next.js, React, and Tailwind CSS to showcase my IoT and embedded systems projects. Live on Vercel and fully responsive.",
+      skills: ["Next.js", "React", "Tailwind CSS", "Vercel Deployment"],
+      link: "https://github.com/Shwetha-org/Portfolio",
+    },
   ];
 
   const experiences = [
