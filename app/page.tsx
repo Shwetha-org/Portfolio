@@ -34,6 +34,13 @@ export default function Home() {
       link: "https://github.com/Shwetha-org/Optimal-Solutions-chatbot",
     },
     {
+      title: "Mini Password Manager (PPM)",
+      description:
+        "A Python-based command-line password manager that uses a master password and PBKDF2+Fernet encryption to securely store, retrieve, and manage multiple credentials per service.​",
+      skills: ["Python", "Cryptography (Fernet, PBKDF2)", "CLI Application Design", "File I/O & JSON Storage"],
+      link: "https://github.com/Shwetha-org/Mini-Password-Manager-PPM-",
+    },
+    {
       title: "Personal Portfolio",
       description:
         "This portfolio website is built with Next.js, React, and Tailwind CSS to showcase my IoT and embedded systems projects. Live on Vercel and fully responsive.",
