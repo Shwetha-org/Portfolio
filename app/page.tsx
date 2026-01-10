@@ -41,6 +41,15 @@ export default function Home() {
       link: "https://github.com/Shwetha-org/Mini-Password-Manager-PPM-",
     },
     {
+      title: "Forest Grid Game",
+      description:
+        "A Java console game built with Gradle featuring OOP design with interfaces and abstract classes. Manage a 10x10 forest grid, move a player and wolf, and save/load game state using serialization and JSON.",
+      skills: ["Java", "Gradle", "OOP Design", "File I/O & Serialization"],
+      link: "https://github.com/Shwetha-org/Forest-Grid-Game",
+      video: "https://youtu.be/9NZGy5z3TQw"
+
+    },
+    {
       title: "Personal Portfolio",
       description:
         "This portfolio website is built with Next.js, React, and Tailwind CSS to showcase my IoT and embedded systems projects. Live on Vercel and fully responsive.",
@@ -198,17 +207,31 @@ export default function Home() {
                 <p className="mt-2 font-medium text-gray-600">
                   Skills: {project.skills.join(", ")}
                 </p>
-                <a
-                  href={project.link}
-                  target="_blank"
-                  className="inline-block mt-4 bg-gray-800 text-white px-5 py-2 rounded-lg hover:bg-gray-900 transition"
-                >
-                  Go to GitHub Repo
-                </a>
+
+                <div className="mt-4 flex flex-wrap gap-3">
+                  <a
+                    href={project.link}
+                    target="_blank"
+                    className="bg-gray-800 text-white px-5 py-2 rounded-lg hover:bg-gray-900 transition"
+                  >
+                    Go to GitHub Repo
+                  </a>
+
+                  {project.video && (
+                    <a
+                      href={project.video}
+                      target="_blank"
+                      className="bg-red-600 text-white px-5 py-2 rounded-lg hover:bg-red-700 transition"
+                    >
+                      Watch Presentation
+                    </a>
+                  )}
+                </div>
               </motion.div>
             ))}
           </div>
         </section>
+
 
         {/* EXPERIENCE / INTERNSHIPS */}
         <section id="experience" className="py-24 px-6">
