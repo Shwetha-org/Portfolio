@@ -221,7 +221,7 @@ export default function Home() {
                     <a
                       href={project.video}
                       target="_blank"
-                      className="bg-red-600 text-white px-5 py-2 rounded-lg hover:bg-red-700 transition"
+                      className="bg-gray-800 text-white px-5 py-2 rounded-lg hover:bg-red-700 transition"
                     >
                       Watch Presentation
                     </a>
